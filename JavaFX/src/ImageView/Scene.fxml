@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ImageView.SceneController">
+   <children>
+      <Button fx:id="myButton" layoutX="262.0" layoutY="346.0" mnemonicParsing="false" onAction="#displayImage" text="Switch">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="myImageView" fitHeight="324.0" fitWidth="463.0" layoutX="69.0" layoutY="14.0" onDragEntered="#displayImage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@room1_1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
